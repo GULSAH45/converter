@@ -1,6 +1,6 @@
 let celcius = document.getElementById("celcius");
 let fahreneit = document.getElementById("fahren");
-function celToFaR(){
+function celToFar(){
     let output = (parseFloat(celcius.value) * 9/5) + 32;
     fahreneit.value = parseFloat(output).toFixed(2);
     console.log(output);
